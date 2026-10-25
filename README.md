@@ -6,8 +6,6 @@
 
 **Website:** [Truy cập Quản Lý Điểm Sinh Viên](https://huonglan122.github.io/student-management/)
 
-**Mã nguồn:** [GitHub – student-management](https://github.com/huonglan122/student-management)
-
 ## 2. Chức năng chính
 
 - Nhập họ tên sinh viên.
