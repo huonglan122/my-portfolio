@@ -1,23 +1,23 @@
-# WEBSITE TIN TỨC 24H
+# WEBSITE QUẢN LÝ ĐIỂM SINH VIÊN
 
 
 ## 1. Giới thiệu dự án
 
 
-**Tin tức 24h** à website tin tức được xây dựng nhằm vận dụng kiến thức phát triển ứng dụng web vào việc thiết kế giao diện và tổ chức nội dung trên môi trường Internet. Website hướng đến việc trình bày các bài viết theo bố cục rõ ràng, giúp người dùng dễ dàng theo dõi tin tức và truy cập các chuyên mục.
+**Quản Lý Điểm Sinh Viên** là website hỗ trợ nhập thông tin sinh viên, quản lý điểm các môn học, tính điểm trung bình và xếp loại kết quả học tập. Website được xây dựng bằng HTML, CSS và JavaScript, với giao diện đơn giản, dễ sử dụng.
 
 
-**Website:** [Truy cập Tin tức 24h](https://thanhvan46.github.io/Website-tin-tuc/)
+**Website:** [Truy cập Quản Lý Điểm Sinh Viên](https://huonglan122.github.io/student-management/)
 
 
 ## 2. Chức năng chính
 
 
-- Hiển thị trang chủ của website tin tức.
-- Cung cấp các liên kết điều hướng như Trang chủ, Tin mới và Liên hệ.
-- Tổ chức nội dung theo các chuyên mục.
-- Trình bày thông tin giới thiệu và liên hệ.
-- Xây dựng giao diện hướng đến sự rõ ràng, thuận tiện khi sử dụng.
+- Nhập họ tên sinh viên.
+- Nhập điểm của năm môn học trên thang điểm từ 0 đến 10.
+- Tính điểm trung bình dựa trên dữ liệu được nhập.
+- Hiển thị kết quả học tập và xếp loại theo quy tắc được lập trình.
+- Trình bày thông tin và kết quả theo bố cục trực quan, dễ theo dõi.
 
 
 ## 3. Kiểm tra tuân thủ trình xác thực W3C
@@ -27,7 +27,7 @@ Website được kiểm tra bằng công cụ W3C Validator nhằm phát hiện 
 
 
 - **Công cụ kiểm tra:** [W3C Markup Validation Service](https://validator.w3.org/)
-- **Website được kiểm tra:** [Tin tức 24h](https://thanhvan46.github.io/Website-tin-tuc/)
+- **Website được kiểm tra:** [Quản Lý Điểm Sinh Viên](https://huonglan122.github.io/student-management/)
 - **Kết quả kiểm tra:** Đáp ứng đầy đủ và không xảy ra lỗi
 
 
@@ -81,7 +81,10 @@ Giao diện website được định dạng bằng CSS nhằm xây dựng bố c
 ## 7. Kết luận
 
 
-Website Tin tức 24h là sản phẩm học tập giúp vận dụng kiến thức xây dựng ứng dụng web vào việc thiết kế và triển khai một website có nội dung cụ thể. Quá trình kiểm tra HTML, đánh giá khả năng đáp ứng trên nhiều kích thước màn hình và trình bày mã nguồn CSS góp phần hoàn thiện chất lượng của sản phẩm.
+Website Quản Lý Điểm Sinh Viên được xây dựng nhằm vận dụng kiến thức HTML, CSS và JavaScript vào việc phát triển một ứng dụng web có chức năng cụ thể. Dự án tập trung vào khả năng nhập liệu, xử lý điểm số, trình bày kết quả và thiết kế giao diện thân thiện với người dùng.
 
 
-**Liên kết website:** [https://thanhvan46.github.io/Website-tin-tuc/](https://thanhvan46.github.io/Website-tin-tuc/)
+Thông qua quá trình xây dựng và kiểm tra website, dự án hướng đến việc hoàn thiện cấu trúc HTML, nâng cao khả năng hiển thị trên nhiều thiết bị và tổ chức mã nguồn rõ ràng, dễ bảo trì.
+
+
+**Liên kết website:** [https://huonglan122.github.io/student-management/](https://huonglan122.github.io/student-management/)
