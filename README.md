@@ -36,7 +36,11 @@ Website được kiểm tra trên các kích thước màn hình khác nhau nh�
 
 ### 4.2. Giao diện trên điện thoại
 
-![Giao diện website trên điện thoại](screenshots/03-mobile.png)
+<p align="center">
+  <img src="screenshots/03-mobile.png"
+       alt="Giao diện website trên điện thoại"
+       width="280">
+</p>
 
 **Đánh giá:** [Bổ sung nhận xét dựa trên kết quả kiểm tra thực tế, chẳng hạn bố cục có phù hợp với màn hình nhỏ hay không, nội dung có bị tràn và các nút có dễ thao tác hay không.]
 
