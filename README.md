@@ -20,7 +20,7 @@ Website được kiểm tra bằng công cụ W3C Validator nhằm phát hiện 
 
 - **Công cụ kiểm tra:** [W3C Markup Validation Service](https://validator.w3.org/)
 - **Website được kiểm tra:** [Quản Lý Điểm Sinh Viên](https://huonglan122.github.io/student-management/)
-- **Kết quả kiểm tra:** [Cập nhật kết quả thực tế sau khi xác thực và sửa lỗi.]
+- **Kết quả kiểm tra:** Đáp ứng đầy đủ và không xảy ra lỗi
 
 ### Minh chứng
 
@@ -41,8 +41,6 @@ Website được kiểm tra trên các kích thước màn hình khác nhau nh�
        alt="Giao diện website trên điện thoại"
        width="280">
 </p>
-
-**Đánh giá:** [Bổ sung nhận xét dựa trên kết quả kiểm tra thực tế, chẳng hạn bố cục có phù hợp với màn hình nhỏ hay không, nội dung có bị tràn và các nút có dễ thao tác hay không.]
 
 ## 5. Thiết kế giao diện và tệp CSS
 
