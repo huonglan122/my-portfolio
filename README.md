@@ -48,14 +48,6 @@ Giao diện website được định dạng bằng CSS nhằm xây dựng bố c
 
 **Tệp CSS:** [Xem mã nguồn style.css](style.css)
 
-### 5.1. Minh chứng giao diện website
-
-![Minh chứng thiết kế giao diện](screenshots/04-interface.png)
-
-### 5.2. Minh chứng mã nguồn CSS
-
-![Minh chứng mã nguồn CSS](screenshots/05-css.png)
-
 ## 6. Cấu trúc mã nguồn
 
 | Tệp | Chức năng |
@@ -63,10 +55,6 @@ Giao diện website được định dạng bằng CSS nhằm xây dựng bố c
 | `index.html` | Xây dựng cấu trúc và các thành phần giao diện website. |
 | `style.css` | Định dạng bố cục, màu sắc, kiểu chữ và giao diện. |
 | `script.js` | Xử lý dữ liệu nhập, tính điểm trung bình và xếp loại học tập. |
-
-- [Xem index.html](index.html)
-- [Xem style.css](style.css)
-- [Xem script.js](script.js)
 
 ## 7. Kết luận
 
