@@ -3,47 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hồ Sơ Cá Nhân - Portfolio</title>
+    <title>Hồ Sơ Cá Nhân - Lập Trình Viên Web</title>
+    <!-- Phông chữ Google Font hiện đại -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Thanh điều hướng cố định dạng Kính mờ -->
     <header class="header">
-        <div class="logo">[Logo Cá Nhân]</div>
+        <div class="logo">
+            <span class="logo-icon">&lt;/&gt;</span> Portfolio
+        </div>
         <nav class="nav">
-            <a href="#about">Giới Thiệu</a>
-            <a href="#projects">Dự Án</a>
-            <a href="#contact">Liên Hệ</a>
+            <a href="#about" class="nav-link">Giới Thiệu</a>
+            <a href="#skills" class="nav-link">Kỹ Năng</a>
+            <a href="#projects" class="nav-link">Dự Án</a>
+            <a href="#contact" class="nav-link btn-contact">Liên Hệ</a>
         </nav>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section id="about" class="hero">
-            <h1>Xin chào, tôi là Lập Trình Viên Web</h1>
-            <p>Đây là trang web danh mục đầu tư được mã hóa từ đầu bằng HTML5 và CSS3.</p>
-            <a href="#projects" class="btn">Xem Dự Án</a>
+            <div class="hero-content">
+                <div class="badge">✨ Lập Trình Viên Web Frontend</div>
+                <h1 class="hero-title">Xây Dựng Giao Diện Web <span class="gradient-text">Đáp Ứng & Hiện Đại</span></h1>
+                <p class="hero-desc">
+                    Chào mừng bạn đến với danh mục đầu tư của tôi. Tôi chuyên thiết kế và lập trình các ứng dụng web từ đầu với tiêu chuẩn mã nguồn sạch, tối ưu hóa trải nghiệm người dùng và giao diện chuẩn Responsive.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Khám Phá Dự Án ➔</a>
+                    <a href="#contact" class="btn btn-secondary">Liên Hệ Ngay</a>
+                </div>
+            </div>
+            
+            <!-- Khung trang trí Code Preview -->
+            <div class="hero-frame">
+                <div class="code-window">
+                    <div class="window-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre class="code-content"><code><span class="code-keyword">const</span> developer = {
+  role: <span class="code-string">"Frontend Developer"</span>,
+  skills: [<span class="code-string">"HTML5"</span>, <span class="code-string">"CSS3"</span>, <span class="code-string">"Responsive"</span>],
+  status: <span class="code-string">"Sẵn sàng nhận dự án"</span>
+};</code></pre>
+                </div>
+            </div>
         </section>
 
-        <section id="projects" class="projects">
-            <h2>Dự Án Nổi Bật</h2>
+        <!-- Phần Kỹ Năng / Điểm Nổi Bật -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Năng Lực Kỹ Thuật</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Mã hóa cấu trúc ngữ nghĩa chuẩn W3C và tạo kiểu giao diện hiện đại với CSS Grid & Flexbox.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Thích Ứng (Responsive)</h3>
+                    <p>Tối ưu hóa hiển thị mượt mà trên tất cả các thiết bị từ Điện thoại, Tablet đến Máy tính bàn.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Mã Nguồn Thuần</h3>
+                    <p>Lập trình thủ công từ đầu (Coded from scratch) giúp tối ưu tốc độ tải trang tối đa.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Danh Sách Dự Án Thực Tế -->
+        <section id="projects" class="projects-section">
+            <div class="section-header">
+                <h2 class="section-title">Dự Án Nổi Bật</h2>
+                <p class="section-subtitle">Các sản phẩm web được mã hóa và lưu trữ trực tiếp trên GitHub Pages</p>
+            </div>
+
             <div class="project-grid">
-                <article class="card">
-                    <h3>Dự Án 1</h3>
-                    <p>Mô tả ngắn gọn về sản phẩm và công nghệ sử dụng.</p>
+                <!-- Dự án 1: Photo Gallery -->
+                <article class="project-card">
+                    <div class="card-preview gallery-bg">
+                        <div class="preview-tag">Thư Viện Ảnh</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS Grid</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <h3 class="card-title">Thư Viện Ảnh Responsive</h3>
+                        <p class="card-desc">
+                            Trang web trưng bày bộ sưu tập ảnh nghệ thuật với bố cục dạng lưới hiện đại, tự động căn chỉnh khung hình chuẩn xác trên màn hình di động và máy tính.
+                        </p>
+                        <div class="card-footer">
+                            <a href="https://huonglan122.github.io/photo-gallery/" target="_blank" rel="noopener" class="btn-link">Xem Trực Tiếp ↗</a>
+                        </div>
+                    </div>
                 </article>
-                <article class="card">
-                    <h3>Dự Án 2</h3>
-                    <p>Mô tả ngắn gọn về sản phẩm và công nghệ sử dụng.</p>
+
+                <!-- Dự án 2: Trang Tin Tức -->
+                <article class="project-card">
+                    <div class="card-preview news-bg">
+                        <div class="preview-tag">Tin Tức</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">Flexbox</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                        <h3 class="card-title">Trang Tin Tức Tổng Hợp</h3>
+                        <p class="card-desc">
+                            Giao diện trang báo điện tử / tin tức trực tuyến với cấu trúc nhiều cột, phân loại bài viết nổi bật và tối ưu không gian đọc tin cho người dùng.
+                        </p>
+                        <div class="card-footer">
+                            <a href="https://huonglan122.github.io/tin-tuc/" target="_blank" rel="noopener" class="btn-link">Xem Trực Tiếp ↗</a>
+                        </div>
+                    </div>
                 </article>
-                <article class="card">
-                    <h3>Dự Án 3</h3>
-                    <p>Mô tả ngắn gọn về sản phẩm và công nghệ sử dụng.</p>
+
+                <!-- Dự án 3: Trang Portfolio Cá Nhân (Chính trang này) -->
+                <article class="project-card">
+                    <div class="card-preview portfolio-bg">
+                        <div class="preview-tag">Hồ Sơ Cá Nhân</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS Variables</span>
+                            <span class="tag">W3C Approved</span>
+                        </div>
+                        <h3 class="card-title">Hồ Sơ Cá Nhân (Portfolio)</h3>
+                        <p class="card-desc">
+                            Sản phẩm danh mục đầu tư tổng hợp mã hóa từ đầu, tích hợp hiệu ứng Glassmorphism, chuẩn W3C Validator và tối ưu hóa trải nghiệm đa nền tảng.
+                        </p>
+                        <div class="card-footer">
+                            <a href="https://huonglan122.github.io/my-portfolio/" target="_blank" rel="noopener" class="btn-link">Xem Trực Tiếp ↗</a>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
     </main>
 
+    <!-- Chân trang -->
     <footer id="contact" class="footer">
-        <p>&copy; 2026 Hồ Sơ Cá Nhân. Tất cả quyền được bảo lưu.</p>
+        <div class="footer-content">
+            <h2>Hãy Cùng Hợp Tác Xây Dựng Dự Án Mới</h2>
+            <p>Sẵn sàng trao đổi về các cơ hội phát triển ứng dụng web và thiết kế giao diện.</p>
+            <div class="footer-contacts">
+                <a href="mailto:student@example.com" class="contact-pill">📧 student@example.com</a>
+                <a href="https://github.com/huonglan122" target="_blank" rel="noopener" class="contact-pill">🐙 GitHub Profile</a>
+            </div>
+            <p class="copyright">&copy; 2026 Designed & Coded from scratch. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
