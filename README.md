@@ -1,54 +1,75 @@
-# WEBSITE QUẢN LÝ ĐIỂM SINH VIÊN
+# WEBSITE TIN TỨC 24H
+
 
 ## 1. Giới thiệu dự án
 
-**Quản Lý Điểm Sinh Viên** là website hỗ trợ nhập thông tin sinh viên, quản lý điểm các môn học, tính điểm trung bình và xếp loại kết quả học tập. Website được xây dựng bằng HTML, CSS và JavaScript, với giao diện đơn giản, dễ sử dụng.
 
-**Website:** [Truy cập Quản Lý Điểm Sinh Viên](https://huonglan122.github.io/student-management/)
+**Tin tức 24h** à website tin tức được xây dựng nhằm vận dụng kiến thức phát triển ứng dụng web vào việc thiết kế giao diện và tổ chức nội dung trên môi trường Internet. Website hướng đến việc trình bày các bài viết theo bố cục rõ ràng, giúp người dùng dễ dàng theo dõi tin tức và truy cập các chuyên mục.
+
+
+**Website:** [Truy cập Tin tức 24h](https://thanhvan46.github.io/Website-tin-tuc/)
+
 
 ## 2. Chức năng chính
 
-- Nhập họ tên sinh viên.
-- Nhập điểm của năm môn học trên thang điểm từ 0 đến 10.
-- Tính điểm trung bình dựa trên dữ liệu được nhập.
-- Hiển thị kết quả học tập và xếp loại theo quy tắc được lập trình.
-- Trình bày thông tin và kết quả theo bố cục trực quan, dễ theo dõi.
+
+- Hiển thị trang chủ của website tin tức.
+- Cung cấp các liên kết điều hướng như Trang chủ, Tin mới và Liên hệ.
+- Tổ chức nội dung theo các chuyên mục.
+- Trình bày thông tin giới thiệu và liên hệ.
+- Xây dựng giao diện hướng đến sự rõ ràng, thuận tiện khi sử dụng.
+
 
 ## 3. Kiểm tra tuân thủ trình xác thực W3C
 
+
 Website được kiểm tra bằng công cụ W3C Validator nhằm phát hiện các lỗi trong cấu trúc HTML và cải thiện khả năng tuân thủ tiêu chuẩn web.
 
+
 - **Công cụ kiểm tra:** [W3C Markup Validation Service](https://validator.w3.org/)
-- **Website được kiểm tra:** [Quản Lý Điểm Sinh Viên](https://huonglan122.github.io/student-management/)
+- **Website được kiểm tra:** [Tin tức 24h](https://thanhvan46.github.io/Website-tin-tuc/)
 - **Kết quả kiểm tra:** Đáp ứng đầy đủ và không xảy ra lỗi
+
 
 ### Minh chứng
 
+
 ![Ảnh chụp kết quả kiểm tra W3C](screenshots/01-w3c-html.png)
+
 
 ## 4. Kiểm tra khả năng đáp ứng (Responsive Design)
 
+
 Website được kiểm tra trên các kích thước màn hình khác nhau nhằm đánh giá khả năng hiển thị của giao diện, biểu mẫu nhập điểm, nút chức năng và phần kết quả.
+
 
 ### 4.1. Giao diện trên máy tính
 
+
 ![Giao diện website trên máy tính](screenshots/02-desktop.png)
+
 
 ### 4.2. Giao diện trên điện thoại
 
+
 <p align="center">
-  <img src="screenshots/03-mobile.png"
-       alt="Giao diện website trên điện thoại"
-       width="280">
+ <img src="screenshots/03-mobile.png"
+      alt="Giao diện website trên điện thoại"
+      width="280">
 </p>
+
 
 ## 5. Thiết kế giao diện và tệp CSS
 
+
 Giao diện website được định dạng bằng CSS nhằm xây dựng bố cục rõ ràng, thống nhất màu sắc, kiểu chữ và cách trình bày các thành phần. Các quy tắc CSS góp phần cải thiện tính thẩm mỹ và trải nghiệm sử dụng.
+
 
 **Tệp CSS:** [Xem mã nguồn style.css](style.css)
 
+
 ## 6. Cấu trúc mã nguồn
+
 
 | Tệp | Chức năng |
 |---|---|
@@ -56,10 +77,11 @@ Giao diện website được định dạng bằng CSS nhằm xây dựng bố c
 | `style.css` | Định dạng bố cục, màu sắc, kiểu chữ và giao diện. |
 | `script.js` | Xử lý dữ liệu nhập, tính điểm trung bình và xếp loại học tập. |
 
+
 ## 7. Kết luận
 
-Website Quản Lý Điểm Sinh Viên được xây dựng nhằm vận dụng kiến thức HTML, CSS và JavaScript vào việc phát triển một ứng dụng web có chức năng cụ thể. Dự án tập trung vào khả năng nhập liệu, xử lý điểm số, trình bày kết quả và thiết kế giao diện thân thiện với người dùng.
 
-Thông qua quá trình xây dựng và kiểm tra website, dự án hướng đến việc hoàn thiện cấu trúc HTML, nâng cao khả năng hiển thị trên nhiều thiết bị và tổ chức mã nguồn rõ ràng, dễ bảo trì.
+Website Tin tức 24h là sản phẩm học tập giúp vận dụng kiến thức xây dựng ứng dụng web vào việc thiết kế và triển khai một website có nội dung cụ thể. Quá trình kiểm tra HTML, đánh giá khả năng đáp ứng trên nhiều kích thước màn hình và trình bày mã nguồn CSS góp phần hoàn thiện chất lượng của sản phẩm.
 
-**Liên kết website:** [https://huonglan122.github.io/student-management/](https://huonglan122.github.io/student-management/)
+
+**Liên kết website:** [https://thanhvan46.github.io/Website-tin-tuc/](https://thanhvan46.github.io/Website-tin-tuc/)
